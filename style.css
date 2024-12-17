@@ -1,3 +1,32 @@
-body {
+body{
+  background-color: slategray;
+  text-align: center; 
+}
 
+h1{
+  color:lightblue;
+  font-family: Apple Chancery, cursive;
+}
+a{
+    background-color:seagreen;
+    border-radius:20px;
+    font-size:28px;
+    padding:20px;
+    color:white;
+    text-decoration: none;
+    position: fixed;
+    top: 100px;
+    left: 899px;
+    font-family:Apple Chancery, cursive;
+}
+a:hover{
+    background-color: black;
+    border:2px dashed seagreen;
+}
+img{
+  position: fixed;
+  top:200px; 
+  left: 830px;
+  border: 1px ridge;
+  border-color: lightblue;
 }
