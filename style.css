@@ -6,6 +6,13 @@ body{
 h1{
   color:lightblue;
   font-family: Apple Chancery, cursive;
+  position:relative;
+}
+ul{
+  position:relative;
+  left:-850px;
+  background-color:orange;
+  padding:20px;
 }
 a{
     background-color:seagreen;
@@ -14,9 +21,6 @@ a{
     padding:20px;
     color:white;
     text-decoration: none;
-    position: fixed;
-    top: 100px;
-    left: 899px;
     font-family:Apple Chancery, cursive;
 }
 a:hover{
@@ -24,9 +28,9 @@ a:hover{
     border:2px dashed seagreen;
 }
 img{
-  position: fixed;
-  top:200px; 
-  left: 830px;
+  position: relative;
+  top:10px; 
+  left: 200;
   border: 1px ridge;
   border-color: lightblue;
 }
